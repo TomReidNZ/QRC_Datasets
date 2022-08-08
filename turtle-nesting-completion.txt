@@ -1,0 +1,10 @@
+week	percent_completed_nesting
+0	0
+2	2
+4	28
+6	64
+8	83
+10	91
+12	98
+14	99
+16	100

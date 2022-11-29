@@ -7,7 +7,7 @@ import pandas
 import numpy as np
 import statsmodels.formula.api as smf
 
-dataset = pandas.read_csv("data/beans_harvest.csv", sep="\t")
+dataset = pandas.read_csv("beans_harvest.csv", sep="\t")
 
 def print_data():
     print(dataset)

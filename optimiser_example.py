@@ -8,7 +8,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 def get_data():
-    data = pandas.read_csv("data/beans_harvest.csv", delimiter="\t")
+    data = pandas.read_csv("beans_harvest.csv", delimiter="\t")
     del data["Year"]
     return data
 
